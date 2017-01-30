@@ -1,2 +1,0 @@
-android.app.Application
-ccm_support.ccm_support
