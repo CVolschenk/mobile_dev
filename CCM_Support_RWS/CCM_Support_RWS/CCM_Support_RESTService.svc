@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="CCM_Support_RWS.CCM_Support_RESTService" CodeBehind="CCM_Support_RESTService.svc.cs" %>

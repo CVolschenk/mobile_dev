@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CCM_Support.frmSub" 
+             Title="{Binding Client}">
+  <StackLayout>
+    <ListView x:Name="lstActionType" ItemTapped="Item_Selected">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <TextCell  Text="{Binding Description}" Detail="{Binding Type}"/>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+    <ActivityIndicator IsRunning="False" x:Name="Sub_Activity"/>
+  </StackLayout>
+</ContentPage>
